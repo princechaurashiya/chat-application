@@ -1,2 +1,33 @@
-2025/04/16-11:14:14.884 363c1 Creating DB /private/var/folders/zk/55lb1k751gvg8flh0w601kbc0000gn/T/flutter_tools.oBBjdD/flutter_tools_chrome_device.bMYteu/Default/Local Storage/leveldb since it was missing.
-2025/04/16-11:14:14.891 363c1 Reusing MANIFEST /private/var/folders/zk/55lb1k751gvg8flh0w601kbc0000gn/T/flutter_tools.oBBjdD/flutter_tools_chrome_device.bMYteu/Default/Local Storage/leveldb/MANIFEST-000001
+2025/04/24-17:06:50.433 d805a Reusing MANIFEST /private/var/folders/zk/55lb1k751gvg8flh0w601kbc0000gn/T/flutter_tools.q4IYTw/flutter_tools_chrome_device.se8qGx/Default/Local Storage/leveldb/MANIFEST-000001
+2025/04/24-17:06:50.435 d805a Recovering log #3
+2025/04/24-17:06:50.436 d805a Reusing old log /private/var/folders/zk/55lb1k751gvg8flh0w601kbc0000gn/T/flutter_tools.q4IYTw/flutter_tools_chrome_device.se8qGx/Default/Local Storage/leveldb/000003.log 
+2025/04/24-17:13:03.168 d805c Level-0 table #5: started
+2025/04/24-17:13:03.174 d805c Level-0 table #5: 26703 bytes OK
+2025/04/24-17:13:03.177 d805c Delete type=0 #3
+2025/04/24-17:21:56.290 d805c Level-0 table #7: started
+2025/04/24-17:21:56.294 d805c Level-0 table #7: 32444 bytes OK
+2025/04/24-17:21:56.308 d805c Delete type=0 #4
+2025/04/24-17:30:56.254 d805c Level-0 table #9: started
+2025/04/24-17:30:56.259 d805c Level-0 table #9: 32087 bytes OK
+2025/04/24-17:30:56.262 d805c Delete type=0 #6
+2025/04/24-17:39:56.242 d805c Level-0 table #11: started
+2025/04/24-17:39:56.246 d805c Level-0 table #11: 32087 bytes OK
+2025/04/24-17:39:56.249 d805c Delete type=0 #8
+2025/04/24-17:48:56.220 d805c Level-0 table #13: started
+2025/04/24-17:48:56.225 d805c Level-0 table #13: 32086 bytes OK
+2025/04/24-17:48:56.240 d805c Delete type=0 #10
+2025/04/24-17:57:56.207 d805c Level-0 table #15: started
+2025/04/24-17:57:56.212 d805c Level-0 table #15: 32087 bytes OK
+2025/04/24-17:57:56.215 d805c Delete type=0 #12
+2025/04/24-17:57:56.217 d805c Compacting 4@0 + 1@1 files
+2025/04/24-17:57:56.220 d805c Generated table #16@0: 9 keys, 4015 bytes
+2025/04/24-17:57:56.220 d805c Compacted 4@0 + 1@1 files => 4015 bytes
+2025/04/24-17:57:56.221 d805c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/24-17:57:56.222 d805c Delete type=2 #15
+2025/04/24-17:57:56.222 d805c Delete type=2 #7
+2025/04/24-17:57:56.222 d805c Delete type=2 #13
+2025/04/24-17:57:56.222 d805c Delete type=2 #11
+2025/04/24-17:57:56.222 d805c Delete type=2 #9
+2025/04/24-18:06:21.103 d805c Level-0 table #18: started
+2025/04/24-18:06:21.107 d805c Level-0 table #18: 32087 bytes OK
+2025/04/24-18:06:21.114 d805c Delete type=0 #14

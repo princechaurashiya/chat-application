@@ -1,10 +1,9 @@
 import 'dart:html' as html;
 
 import 'package:chat/services/socket_services.dart';
+import 'package:chat/views/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import 'routes/app_routes.dart';
 
 void main() {
   //  Get.put(SocketService()); //
@@ -23,8 +22,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: AppRoutes.login,
-      getPages: AppRoutes.pages,
+      home: Community(),
+      // initialRoute: AppRoutes.landing,
+      // // AppRoutes.login,
+      // getPages: AppRoutes.pages,
     );
   }
 }

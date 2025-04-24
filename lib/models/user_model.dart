@@ -34,17 +34,17 @@
 
 class UserModel {
   String? id; // User's ID (from _id in backend)
-  String name;
+  String? name;
   String email;
   String password;
-  String confirmPassword;
+  //String confirmPassword;
 
   UserModel({
     this.id,
-    required this.name,
+    this.name,
     required this.email,
     required this.password,
-    required this.confirmPassword,
+    //required this.confirmPassword,
   });
 
   // Convert JSON to Model
@@ -54,7 +54,7 @@ class UserModel {
       name: json['name'] ?? '',
       email: json['email'] ?? '',
       password: json['password'] ?? '',
-      confirmPassword: '', // usually not returned by API
+      // confirmPassword: '', // usually not returned by API
     );
   }
 
