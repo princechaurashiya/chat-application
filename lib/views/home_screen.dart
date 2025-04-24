@@ -72,10 +72,10 @@ class Community extends StatefulWidget {
 class _CommunityState extends State<Community> {
   int _selectedIndex = 0;
 
-  final List<Widget> _pages = const [
+  final List<Widget> _pages = [
     CommunityPage(),
-    MessagesPage(),
-    ProfilePage(),
+    ChatScreen(),
+    const ProfilePage(),
   ];
 
   final List<Map<String, dynamic>> _navItems = [

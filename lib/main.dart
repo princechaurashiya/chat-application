@@ -1,7 +1,7 @@
 import 'dart:html' as html;
 
+import 'package:chat/routes/app_routes.dart';
 import 'package:chat/services/socket_services.dart';
-import 'package:chat/views/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -22,10 +22,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Community(),
-      // initialRoute: AppRoutes.landing,
-      // // AppRoutes.login,
-      // getPages: AppRoutes.pages,
+      // home: Community(),
+      initialRoute: AppRoutes.landing,
+      // AppRoutes.login,
+      getPages: AppRoutes.pages,
     );
   }
 }

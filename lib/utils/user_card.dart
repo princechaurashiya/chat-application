@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 
 class ProfileCard extends StatelessWidget {
   final String name;
+  final bool isOnline;
 
-  const ProfileCard({super.key, required this.name});
+  const ProfileCard({super.key, required this.name, required this.isOnline});
 
   @override
   Widget build(BuildContext context) {
@@ -44,7 +45,7 @@ class ProfileCard extends StatelessWidget {
                       width: 12,
                       height: 12,
                       decoration: BoxDecoration(
-                        color: Colors.green,
+                        color: isOnline ? Colors.green : Colors.grey,
                         shape: BoxShape.circle,
                         border: Border.all(color: Colors.white, width: 2),
                       ),
